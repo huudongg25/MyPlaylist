@@ -58,6 +58,24 @@ const apps = {
         path:'./assets/music/song6.m4a',
         img: './assets/img/BTS2.jpg',
     },
+    {
+        name:'MIC Drop',
+        singer:'BTS',
+        path:'./assets/music/song7.mp3',
+        img: './assets/img/Bts3.png',
+    },
+    {
+        name:'Dù Cho Mai Về Sau',
+        singer:'buitruonglinh',
+        path: './assets/music/song8.mp3',
+        img: './assets/img/duchomaivesau.jpeg',
+    },
+    {
+        name:'Đường Ta Chở Em Về',
+        singer:'buitruonglinh',
+        path: './assets/music/song9.mp3',
+        img: './assets/img/buitruonglinh.jpg',
+    },
     ],
     render: function() {
         const htmls = this.songs.map((song, index) => {
