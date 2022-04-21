@@ -10,7 +10,7 @@
   }
   
   body {
-    background-color: #f3d4d4;
+    background-image: linear-gradient(to bottom,rgb(255, 32, 32),rgb(250, 225, 225));
   }
   
   html {
@@ -185,7 +185,7 @@
   
   .song .author {
     font-size: 12px;
-    color: rgb(146, 143, 143);
+    color: #999;
   }
   
   .song .option {
